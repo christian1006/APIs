@@ -1,3 +1,6 @@
+// notice these requires don't have "./"
+//	require statements without a path are requiring node modules
+//	not local files
 let jsonfile = require('jsonfile');
 let path = require('path');
 
@@ -28,7 +31,7 @@ let model = {
 	read_all: function() {
 			let db = require('../db.json');
 			return db.data
-			//  	returns array of all data
+			//    returns array of all data
 			// let db = require('../db.json');
 			// let data = db.data;
 			// let returner = [];

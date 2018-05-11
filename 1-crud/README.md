@@ -30,11 +30,11 @@ Along the way you'll learn about Model Objects and File IO (one of Node's 3 supe
 ## Specifications
 
 
-1. For each _basic model_ file in this [demo app](https://github.com/elewa-academy/Modular-Design/tree/master/docs_src/05-crud/crud-app):
+1. For each _basic model_ file in this [demo app](https://github.com/elewa-academy/Modular-Design/tree/master/docs_src/1-crud/crud-app):
     * Write the model object
     * Test the model object in your /tests folder
 
-2. For each _json model_ file:
+2. For each model file with "json" in the name:
     * Write the model object
       * User Stories:
         * Create
@@ -68,13 +68,29 @@ File I/O in Node:
 * [Codementor](https://www.codementor.io/codementorteam/how-to-use-json-files-in-node-js-85hndqt32)
 * [node-jsonfile](https://github.com/jprichardson/node-jsonfile)
 * [By Example](https://github.com/elewa-academy/Modular-Design/) - some of the apps have a db.txt, those use file io
+* [JSON format](https://www.w3schools.com/js/js_json_intro.asp)
+* [\_\_dirname](https://jaketrent.com/post/paths-in-node/)
 
 Error Handling with Callbacks:
 * [Error First Convention](http://fredkschott.com/post/2014/03/understanding-error-first-callbacks-in-node-js/)
 * [By Example](https://github.com/elewa-academy/General-Resources/tree/master/code-to-study/progressive-callbacks)
 
+Blocking & Non-Blocking:
+* [Blocking vs Non-Blocking 1](https://bytearcher.com/articles/blocking-vs-non-blocking-in-node.js/)
+* [Blocking vs Non-Blocking 2](http://www.programmr.com/blogs/difference-between-asynchronous-and-non-blocking)
+* [Non-Blocking I/O 1](https://www.codementor.io/theresamostert/understanding-non-blocking-i-o-in-javascript-cvmg1hp6l)
+* [Non-Blocking I/O 2](http://sebastianmetzger.com/handle-asynchronous-non-blocking-io-in-javascript/)
+* [How to know the difference?](https://softwareengineering.stackexchange.com/questions/202047/what-determines-which-javascript-functions-are-blocking-vs-non-blocking)
+
+NPM Installing:
+* [Nodesource](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
+* [Impressivewebs](https://www.impressivewebs.com/npm-for-beginners-a-guide-for-front-end-developers/)
+* [Requiring Modules vs Files](https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8)
+* [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)
+
 Closures:
 * [General Resources](https://elewa-academy.github.io/General-Resources/javascript/closures.html)
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures)
 
 
 [TOP](#index)
